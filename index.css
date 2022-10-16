@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: adelia;
+    src:url(adelia.ttf);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #a478b8;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: adelia;
+    color: white;
+}
+
+#logo {
+    color: #653780;
+}
+
+nav a.nav::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #653780;
+    transition: 500ms;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2px;
+    display: block;
+}
+
+nav a.nav:hover::after{
+    width: 100%;
+}
+
+.pginicial {
+    height: 744px;
+    width: 100%;
+    display: flex;
+    background-color: #e0c2f2;
+    align-content: center;
+    justify-content: center;
+}
+
+.foto {
+    background-image: url(../img/eloisa1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    opacity: 0.9;
+}
+
+.titulo {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+#texto {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 20%;
+}
+
+#t1 {
+    font-size: 30px;
+    color: white;
+    font-family: adelia;
+}
+
+#t2 {
+    font-size: 50px;
+    color: white;
+    font-family: adelia;
+    font-weight: 600;
+}
+
+#t3 {
+    font-size: 20px;
+    color: #653780;
+    padding-bottom: 20px;
+    font-family: adelia;
+    font-weight: 400;
+}
+
+#lolo {
+    color: #653780;
+}
+
+#botao {
+    padding: 5px;
+    border: 3px solid #653780;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #653780;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+
+#sobremim {
+    height: 800px;
+    background-color:#f7e7fb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sobremim {
+    height: 80%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    border-radius: 20px;
+}
+
+#imgabt {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#euzinha {
+    width: 35%;
+    margin: auto;
+    border-radius: 250px;
+}
+
+#aside {
+    width: 65%;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+}
+
+#textoaside {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#taside {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: adelia;
+    color: #653780;
+}
+
+#paside {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #a478b8;
+}
+
+#lana {
+    text-decoration: none;
+    color: #653780;
+}
+
+#sectgaleria {
+    height: 800px;
+    background-color: #f6ecf9;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.img-galeria {
+    display: grid;
+    height: 80%;
+    width: 70%;
+    margin: 30px auto 30px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 30px;
+    padding: 0px 30px 0px 30px
+}
+
+#tgaleria {
+    font-size: 30px;
+    font-family: adelia;
+    color:#653780;
+}
+
+.fotos {
+    border-radius: 2%;
+}
+
+#foto1 {
+background-image: url(img/stock.jpg);
+background-size: cover;
+background-position: 70%;
+}
+
+#foto2 {
+background-image: url(img/stock\ 2.jpg);
+background-size: cover;
+background-position: 50%;
+}
+
+#foto3 {
+    background-image: url(img/stock\ 3.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+   
+#foto4 {
+    background-image: url(img/stock\ 4.jpg);
+    background-size: cover;
+}
+
+#foto5 {
+    background-image: url(img/stock\ 5.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#foto6 {
+    background-image: url(img/stock6.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#sectcontato {
+    height: 350px;
+    width: 100%;
+    background-color: #f1eef2;   
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.ctt {
+    width: 100%;
+}
+
+.btn {
+    line-height: 90px;
+    width: auto;
+    font-size: 35px;
+    transition: 0.2s linear;
+}
+
+#h1ctt{
+    font-family: adelia;
+    font-size: 30px;
+    color: #653780;
+    padding-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: #e0c2f2;
+    margin: 10px;
+    border-radius: 30%;
+    position: relative;
+    box-shadow: 0 5px 15px -5px #653780;
+    color: #653780;
+    overflow: hidden;
+}
+
+.btn:hover i{
+    transform: scale(1.4);
+    color: #e0c2f2;
+}
+
+.btn::before {
+    content: " ";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    background-color: #653780;
+}
+
+.btn:hover::before {
+    animation: aaa 1s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0%{
+        left:-110%;
+        top:90%
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #a478b8;
+    text-align: center;
+    align-items: center;
+ }
+
+ #fútê {
+    color: #e0c2f2;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+ }
