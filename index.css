@@ -84,7 +84,7 @@ nav a.nav:hover::after{
 }
 
 .foto {
-    background-image: url(../img/eloisa1.jpg);
+    background-image: url(img/eloisa1.jpg);
     background-size: cover;
     height: 100%;
     width: 30%;
