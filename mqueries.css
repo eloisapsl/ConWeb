@@ -1,0 +1,163 @@
+@media (min-width:350px) and (max-width:600px) {
+    nav ul {
+        width: 62%;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 38%;
+        font-size: 23px;
+    }
+
+    .pginicial {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #eloisa {
+        height: 80%;
+        border-radius: 100px;
+        margin: auto;
+    }
+
+    .foto {
+        display: flex;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+    }
+
+    #texto {
+        padding-top: 1px;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 60%;
+    }
+
+    #t1 {
+        font-size: 18px;
+        padding-bottom:10px;
+    }
+
+    #t2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    #t3 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    #sobremim {
+        display: block;
+
+    }
+
+    .sobremim {
+        display: block;
+        margin: 0px;
+        height: 100%;
+    }
+
+    #imgabt {
+        width: 100%;
+    }
+
+    #euzinha {
+        width: 60%;
+    }
+
+    #aside {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #textoaside {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #taside {
+        font-size: 30px;
+    }
+
+    #paside {
+        font-size: 15px;
+    }
+
+    .img-galeria {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+    nav ul {
+        width: 60%;
+    }
+
+    .logo {
+        width: 40%;
+        font-size: 28px;
+    }
+
+    .foto {
+        width: 60%;
+
+    }
+
+    #eloisa {
+        width: 100%;
+    }
+
+    .titulo {
+        display: block;
+    }
+
+    #texto {
+        text-align: center;
+        display: block;
+    }
+
+    #t1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #t2 {
+        font-size: 40px;
+    }
+
+    #t3 {
+        font-size: 25px;
+    }
+
+    .sobremim {
+        display: block;
+    }
+
+    #imgabt {
+        width: 100%;
+        height: 30%;
+    }
+
+    #euzinha {
+        width: 30%;
+    }
+
+    #aside {
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px
+    }
+
+    .img-galeria {
+        grid-template-columns: 1fr 1fr;
+    }
+}
