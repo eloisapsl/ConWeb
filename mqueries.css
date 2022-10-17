@@ -20,7 +20,7 @@
 
     #eloisa {
         height: 80%;
-        border-radius: 100px;
+        border-radius: 60%;
         margin: auto;
     }
 
@@ -97,9 +97,13 @@
     }
 }
 
-@media (min-width:601px) and (max-width:900px) {
+@media (min-width: 601px) and (max-width: 900px) {
     nav ul {
         width: 60%;
+    }
+
+    .pginicial {
+        height: 744px;
     }
 
     .logo {
@@ -108,7 +112,7 @@
     }
 
     .foto {
-        width: 60%;
+        width: 70%;
 
     }
 
